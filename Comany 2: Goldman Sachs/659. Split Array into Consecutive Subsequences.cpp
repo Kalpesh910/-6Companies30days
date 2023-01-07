@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool isPossible(vector<int>& nums) {
+        
         map<int, int>mp;
         map<int, int>mp1;
         for(auto it: nums)  mp[it]++;
